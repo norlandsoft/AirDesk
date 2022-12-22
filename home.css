@@ -18,10 +18,16 @@ input {
   overflow: hidden;
 }
 
-.search_bar {
+.search_baidu {
   text-align: center;
   width: 688px;
-  margin: 200px auto;
+  margin: 200px auto 0;
+}
+
+.search_google {
+  text-align: center;
+  width: 688px;
+  margin: 20px auto;
 }
 
 .input_wd {
