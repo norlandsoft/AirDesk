@@ -1,10 +1,18 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Input Mono', 'Courier New', Courier, monospace;
+  font-size: 14px;
+  overflow: hidden;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input {
+  font-family: 'Input Mono', 'Courier New', Courier, monospace;
+  height: 36px;
+  font-size: 16px;
+}
+
+.App {
+  text-align: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -24,15 +32,24 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.search_baidu {
+  text-align: center;
+  width: 688px;
+  margin: 0 auto 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search_google {
+  text-align: center;
+  width: 688px;
+  margin: 20px auto;
+}
+
+.input_wd {
+  padding-left: 12px;
+}
+
+.input_submit {
+  height: 42px;
+  width: 105px;
+  margin: 6px;
 }
